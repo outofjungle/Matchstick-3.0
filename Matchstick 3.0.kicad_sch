@@ -3012,6 +3012,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 154.94) (xy 107.95 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47ed2f33-1766-4b22-8c58-4387dd18b1b3")
+	)
+	(wire
+		(pts
 			(xy 76.2 99.06) (xy 76.2 101.6)
 		)
 		(stroke
@@ -3019,16 +3029,6 @@
 			(type default)
 		)
 		(uuid "52a99837-54ed-466c-b491-b922698d2256")
-	)
-	(wire
-		(pts
-			(xy 101.6 154.94) (xy 107.95 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59238faa-1cbe-4136-a85b-fd44b654b629")
 	)
 	(wire
 		(pts
@@ -3309,6 +3309,46 @@
 			(type default)
 		)
 		(uuid "fc99af8d-66be-49a4-9be8-22b4ac857c67")
+	)
+	(label "LED"
+		(at 91.44 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "087c41ac-b77c-4586-bb43-9cffda88b0d2")
+	)
+	(label "GND"
+		(at 110.49 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47dfca9f-f3d8-4b2b-ab59-d16301cef342")
+	)
+	(label "SW1"
+		(at 91.44 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d733bc64-d6fd-4ca4-8c37-aff1e6ce053b")
+	)
+	(label "LED2"
+		(at 102.87 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9d54aa4-2bd7-4eeb-8869-2b9a257acfc2")
 	)
 	(global_label "D1"
 		(shape input)
