@@ -5,395 +5,6 @@
 	(uuid "45f94e20-d12c-4f88-9dfe-3e689874995f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "74xx_custom:74HCT125D"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 3.81 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "74HCT125D_1_1"
-				(rectangle
-					(start -2.54 6.35)
-					(end 2.54 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 0 2.54)
-					(end 0 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 8.89 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -8.89 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HCT125D_2_1"
-				(polyline
-					(pts
-						(xy -3.81 6.35) (xy -3.81 -6.35) (xy 5.08 0) (xy -3.81 6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at 0 -6.35 90)
-					(length 2.54)
-					(name "OE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HCT125D_3_1"
-				(polyline
-					(pts
-						(xy -3.81 6.35) (xy -3.81 -6.35) (xy 5.08 0) (xy -3.81 6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at 0 -6.35 90)
-					(length 2.54)
-					(name "OE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HCT125D_4_1"
-				(polyline
-					(pts
-						(xy -3.81 6.35) (xy -3.81 -6.35) (xy 5.08 0) (xy -3.81 6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at 0 -6.35 90)
-					(length 2.54)
-					(name "OE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "74HCT125D_5_1"
-				(polyline
-					(pts
-						(xy -3.81 6.35) (xy -3.81 -6.35) (xy 5.08 0) (xy -3.81 6.35)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at 0 -6.35 90)
-					(length 2.54)
-					(name "OE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "Y"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Barrel_Jack"
 			(pin_names
 				(offset 1.016)
@@ -1072,6 +683,395 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Custom:74HCT125D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.81 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74HCT125D_1_1"
+				(rectangle
+					(start -2.54 6.35)
+					(end 2.54 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 0 2.54)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 8.89 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HCT125D_2_1"
+				(polyline
+					(pts
+						(xy -3.81 6.35) (xy -3.81 -6.35) (xy 5.08 0) (xy -3.81 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HCT125D_3_1"
+				(polyline
+					(pts
+						(xy -3.81 6.35) (xy -3.81 -6.35) (xy 5.08 0) (xy -3.81 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HCT125D_4_1"
+				(polyline
+					(pts
+						(xy -3.81 6.35) (xy -3.81 -6.35) (xy 5.08 0) (xy -3.81 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HCT125D_5_1"
+				(polyline
+					(pts
+						(xy -3.81 6.35) (xy -3.81 -6.35) (xy 5.08 0) (xy -3.81 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2279,7 +2279,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "SparkFun:SparkFun_COM-08720"
 				(at 0.635 5.715 90)
 				(effects
 					(font
@@ -2394,8 +2394,12 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2495,8 +2499,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+5V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2516,8 +2519,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2593,8 +2600,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3745,7 +3751,7 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx_custom:74HCT125D")
+		(lib_id "Custom:74HCT125D")
 		(at 168.91 36.83 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -3755,7 +3761,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a89c74e-7d2e-4e6f-937d-4131c2d87605")
 		(property "Reference" "U2"
-			(at 169.545 27.94 0)
+			(at 169.545 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,7 +3769,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 170.18 36.83 0)
+			(at 169.545 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,7 +3855,7 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx_custom:74HCT125D")
+		(lib_id "Custom:74HCT125D")
 		(at 201.93 36.83 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -3859,7 +3865,7 @@
 		(fields_autoplaced yes)
 		(uuid "18649326-8624-4e1a-98a3-9b7f151e6b05")
 		(property "Reference" "U2"
-			(at 202.565 27.94 0)
+			(at 202.565 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3867,7 +3873,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 203.2 36.83 0)
+			(at 202.565 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3997,7 +4003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 168.91 71.12 0)
 			(effects
 				(font
@@ -4063,7 +4069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 229.87 26.67 0)
 			(effects
 				(font
@@ -4129,7 +4135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 120.65 171.45 0)
 			(effects
 				(font
@@ -4262,7 +4268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 138.43 49.53 0)
 			(effects
 				(font
@@ -4331,7 +4337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 267.97 55.88 0)
 			(effects
 				(font
@@ -4418,7 +4424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 201.93 45.72 0)
 			(effects
 				(font
@@ -4484,7 +4490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 148.59 62.23 0)
 			(effects
 				(font
@@ -4550,7 +4556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 168.91 45.72 0)
 			(effects
 				(font
@@ -4616,7 +4622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 49.53 64.77 0)
 			(effects
 				(font
@@ -4682,7 +4688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 201.93 72.39 0)
 			(effects
 				(font
@@ -4815,7 +4821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 73.66 170.18 0)
 			(effects
 				(font
@@ -4881,7 +4887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 76.2 99.06 0)
 			(effects
 				(font
@@ -4948,7 +4954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 229.87 49.53 0)
 			(effects
 				(font
@@ -4973,7 +4979,7 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx_custom:74HCT125D")
+		(lib_id "Custom:74HCT125D")
 		(at 168.91 62.23 0)
 		(unit 4)
 		(exclude_from_sim no)
@@ -4983,7 +4989,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb3a44d5-dbcf-4657-981e-3f147580d263")
 		(property "Reference" "U2"
-			(at 169.545 53.34 0)
+			(at 169.545 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4991,7 +4997,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 170.18 62.23 0)
+			(at 169.545 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5266,7 +5272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 111.76 154.94 0)
 			(effects
 				(font
@@ -5412,7 +5418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 229.87 72.39 0)
 			(effects
 				(font
@@ -5434,7 +5440,7 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx_custom:74HCT125D")
+		(lib_id "Custom:74HCT125D")
 		(at 148.59 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5444,7 +5450,7 @@
 		(fields_autoplaced yes)
 		(uuid "e672bfab-8ff3-46ed-8c59-87fb63536c94")
 		(property "Reference" "U2"
-			(at 152.4 49.53 0)
+			(at 152.4 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5453,11 +5459,12 @@
 			)
 		)
 		(property "Value" "~"
-			(at 149.86 49.53 0)
+			(at 152.4 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
@@ -5539,7 +5546,7 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx_custom:74HCT125D")
+		(lib_id "Custom:74HCT125D")
 		(at 201.93 62.23 0)
 		(unit 5)
 		(exclude_from_sim no)
@@ -5549,7 +5556,7 @@
 		(fields_autoplaced yes)
 		(uuid "f325a477-909c-499d-bf18-9c1f33a9bb6e")
 		(property "Reference" "U2"
-			(at 202.565 53.34 0)
+			(at 202.565 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5557,7 +5564,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 203.2 62.23 0)
+			(at 202.565 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5755,7 +5762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 49.53 30.48 0)
 			(effects
 				(font
@@ -5821,7 +5828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 148.59 36.83 0)
 			(effects
 				(font
