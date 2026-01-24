@@ -147,7 +147,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
-			(at 2.8 0 90)
+			(at 2.9325 0.06 180)
 			(layer "F.SilkS")
 			(uuid "5ae9063a-d33b-4b78-a783-06e7f308be8e")
 			(effects
@@ -288,7 +288,7 @@
 		(descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U2"
-			(at 3.31 -5.23 0)
+			(at -2.015 5.61 0)
 			(layer "F.SilkS")
 			(uuid "50b43478-547b-4602-b552-918334c895e3")
 			(effects
@@ -2623,7 +2623,7 @@
 			(net 18 "/SW1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "2fca89a5-1057-4eff-9e33-b87376cf4b1e")
+			(uuid "0700c54d-13bc-4061-8f9e-746745601f12")
 		)
 		(pad "2" smd rect
 			(at -3.1 1.85 90)
@@ -2641,7 +2641,7 @@
 			(net 2 "GND")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "99ebb4af-e333-43cc-b71f-6a2cc9de95da")
+			(uuid "0a66720a-2205-440c-a1af-6a9971cd294d")
 		)
 		(embedded_fonts no)
 	)
@@ -3176,6 +3176,17 @@
 		)
 		(embedded_fonts no)
 	)
+	(gr_rect
+		(start 172.818554 87.57)
+		(end 194.451447 102.91)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3155d720-337a-4c01-9f1c-bb8b27c76b73")
+	)
 	(gr_line
 		(start 158.85 87.5)
 		(end 158.85 121.5)
@@ -3215,6 +3226,136 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "e0d47f51-51d3-437f-86cf-9e8116443afa")
+	)
+	(gr_text "+5V     +5V"
+		(at 206.08 106.98 0)
+		(layer "B.SilkS" knockout)
+		(uuid "13890ea3-c9ca-4335-b349-337e46f1ed65")
+		(effects
+			(font
+				(size 1.25 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "C1       G08"
+		(at 206.03 110.54 0)
+		(layer "B.SilkS" knockout)
+		(uuid "26f80f94-59d6-49b3-af00-e409f990ce0b")
+		(effects
+			(font
+				(size 1.25 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "MATCH\nSTICK\n0x03"
+		(at 160.02 96.02 0)
+		(layer "B.SilkS" knockout)
+		(uuid "2eb774eb-ed1f-4744-ad87-57a9c581328a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify right bottom mirror)
+		)
+	)
+	(gr_text "GND     GND"
+		(at 206.05 103.55 0)
+		(layer "B.SilkS" knockout)
+		(uuid "363271e2-0cba-4fb3-94d6-85cb0d60547f")
+		(effects
+			(font
+				(size 1.25 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND     GND"
+		(at 206.03 117.49 0)
+		(layer "B.SilkS" knockout)
+		(uuid "46ffd26b-77f3-40f3-bec3-93797b159b3b")
+		(effects
+			(font
+				(size 1.25 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "D2       G07"
+		(at 206.1 100 0)
+		(layer "B.SilkS" knockout)
+		(uuid "5e90dbe5-94a3-480e-8452-6f0dbc17d5d4")
+		(effects
+			(font
+				(size 1.25 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "C2       G09\n"
+		(at 206.05 96.6 0)
+		(layer "B.SilkS" knockout)
+		(uuid "61cb7bd9-d333-47e3-9afa-dec9b5b2b06c")
+		(effects
+			(font
+				(size 1.25 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "D1       G12"
+		(at 206.08 113.95 0)
+		(layer "B.SilkS" knockout)
+		(uuid "65c9e219-2885-49fe-953e-5d1f2261b6ae")
+		(effects
+			(font
+				(size 1.25 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "+5V     +5V"
+		(at 206.1 93.04 0)
+		(layer "B.SilkS" knockout)
+		(uuid "683bf0a2-078d-4bb9-b1d2-c8e4db862a3a")
+		(effects
+			(font
+				(size 1.25 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "0x76656E\nLabs"
+		(at 160.21 99.94 0)
+		(layer "B.SilkS")
+		(uuid "f99b8019-54df-44b1-b5f7-fb0933b396bf")
+		(effects
+			(font
+				(size 1 0.98)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify right bottom mirror)
+		)
 	)
 	(segment
 		(start 197.94 106.26)
