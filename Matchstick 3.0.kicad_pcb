@@ -2446,6 +2446,7 @@
 		)
 	)
 	(footprint "Symbol:Symbol_Barrel_Polarity"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "d3210fe1-661b-48c8-9ec5-27bfdda6d171")
 		(at 161.615 115 90)
@@ -2768,6 +2769,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Logo:Cat1-Logo_15x8.7mm_SilkScreen"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "343446ed-c5ea-446c-90a1-25a41ce30164")
 		(at 166.548431 116.8419 180)
@@ -3849,6 +3851,7 @@
 		(uuid "f07a6a6d-c676-43cf-856c-2818724ddfdb")
 	)
 	(gr_text "-"
+		(locked yes)
 		(at 161.69 118 90)
 		(layer "F.SilkS")
 		(uuid "490bf747-8ee4-489c-858b-8f75921c0a05")
@@ -3861,6 +3864,7 @@
 		)
 	)
 	(gr_text "+"
+		(locked yes)
 		(at 161.69 112 0)
 		(layer "F.SilkS")
 		(uuid "818e5af4-de88-4528-95ac-6424f0844700")
@@ -3873,6 +3877,7 @@
 		)
 	)
 	(gr_text "+5V"
+		(locked yes)
 		(at 163.63 116.55 90)
 		(layer "F.SilkS")
 		(uuid "ed648d02-1d7e-452b-a7c6-ff8352e27e5b")
@@ -6214,6 +6219,7 @@
 	)
 	(group ""
 		(uuid "c64ca3b6-bbdf-4c30-99b7-84b8afaa9519")
+		(locked yes)
 		(members "490bf747-8ee4-489c-858b-8f75921c0a05" "818e5af4-de88-4528-95ac-6424f0844700"
 			"d3210fe1-661b-48c8-9ec5-27bfdda6d171"
 		)
