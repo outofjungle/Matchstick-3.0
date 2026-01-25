@@ -2745,7 +2745,7 @@
 			(net 18 "/SW1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "2fca89a5-1057-4eff-9e33-b87376cf4b1e")
+			(uuid "b260f276-3dba-4fe8-a396-103c933cf272")
 		)
 		(pad "2" smd rect
 			(at -3.1 1.85 90)
@@ -2763,7 +2763,7 @@
 			(net 2 "GND")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "99ebb4af-e333-43cc-b71f-6a2cc9de95da")
+			(uuid "9c71bf8e-277a-4ba7-8aad-be933abdb1a9")
 		)
 		(embedded_fonts no)
 	)
@@ -3996,6 +3996,19 @@
 		(effects
 			(font
 				(size 1.25 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "WayWayWay"
+		(at 192 118.95 0)
+		(layer "B.SilkS")
+		(uuid "e48450aa-4faf-4164-bb0f-bfd756252849")
+		(effects
+			(font
+				(size 0.8 0.8)
 				(thickness 0.15)
 				(bold yes)
 			)
