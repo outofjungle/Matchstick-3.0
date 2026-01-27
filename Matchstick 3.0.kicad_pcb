@@ -7,6 +7,11 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Matchstick 3.0 (Barrel Jack)")
+		(date "2026-01-26")
+		(company "0x76656E Labs")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -64,7 +69,6 @@
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
-		(solder_mask_min_width 0.1016)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
@@ -4007,7 +4011,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "WayWayWay"
+	(gr_text "JLCJLCJLCJLC"
 		(at 192 118.95 0)
 		(layer "B.SilkS")
 		(uuid "e48450aa-4faf-4164-bb0f-bfd756252849")
